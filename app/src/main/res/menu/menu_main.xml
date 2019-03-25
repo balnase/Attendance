@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.logicchip.blog_14_floatingsearchview.MainActivity">
+    <item
+        android:icon="@drawable/ic_close"
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/cart_action"
+        android:orderInCategory="100"
+        android:title="action_Cart"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/notification_action"
+        android:orderInCategory="100"
+        android:title="action_Notification"
+        app:showAsAction="always" />
+</menu>
